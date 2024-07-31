@@ -111,7 +111,7 @@ describe('cadastro', function () {
         })
     })
 
-    context.only('quando não preencher todos os campos', () => {
+    context('quando não preencher todos os campos', () => {
 
         const alertMessages = [
             'Nome é obrigatório',
